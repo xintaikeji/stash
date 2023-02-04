@@ -45,12 +45,12 @@ proxy-providers:
 
   MyProxy: &MyProxy #建立锚点
      #多机场用户请使用Sub-Store生成自己的订阅地址并替换以下url地址
-    url: https://lameizi.buzz/api/v1/client/subscribe?token=54ffc7db44736b83323e6e5564ccafd3
+    url: https://newhua99.com/api/v1/client/subscribe?token=f5df2e83092ba5af7ad8a4655ee2327d
     interval: 86400
     health-check:
       enable: true
       interval: 3600
-      url: https://lameizi.buzz/api/v1/client/subscribe?token=54ffc7db44736b83323e6e5564ccafd3
+      url: https://newhua99.com/api/v1/client/subscribe?token=f5df2e83092ba5af7ad8a4655ee2327d
       
   #美国节点
   MyProxy-US:
